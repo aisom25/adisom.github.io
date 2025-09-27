@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LS Engine Hub</title>
+    <link rel="stylesheet" href="css/ls.css">
+</head>
+<body>
+    <div id="wrapper">
+    <header>
+        <h1><a href="index.html">LS Engine Hub</a></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">Engines</a></li>
+            <li><a href="differences.html">Parts</a></li>
+            <li><a href="budget.html">Contact</a></li>
+            <li><a href="max.html">About</a></li>
+        </ul>
+    </nav>
+    <div id="homehero" class="hero"></div>
+    <main>
+        <h2>Welcome to LS Engine Hub</h2>
+        <p><span class="brand">LS engines</span> are a family of GM V8s that combine strength with value. This site helps new enthusiasts learn the history of the platform, understand the major variants, and plan a build that fits a real budget.</p>
+        <ul>
+            <li>Clear explanations of generations and common codes</li>
+            <li>Side by side comparisons to learn the differences</li>
+            <li>Budget friendly recipes for power gains</li>
+            <li>Examples of high power builds to see what is possible</li>
+        </ul>
+        <h2 id="contact">Contact Us to Learn More</h2>
+        <p>Required fields are marked with an asterisk (*)</p>
+        <form method="post" action="webdevbasics.net/scripts/pacific.php">
+            <label for="myFName">*First Name:</label>
+            <input type="text" id="myFName" name="myFName" required>
+            <label for="myEmail">*Email:</label>
+            <input type="email" id="myEmail" name="myEmail" required>
+            <label for="myBudget">Budget:</label>
+            <input type="number" id="myBudget" name="myBudget" min="0" step="100000">
+            <label for="myComments">Comments:</label>
+            <textarea id="myComments" name="myComments" rows="2" cols="30" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        &copy; Copyright 2024 LS Engine Hub 
+        <br><a href="mailto:info@lsenginehub.com">info@lsenginehub.com</a>
+    </footer>
+</div>
+</body>
+</html>
