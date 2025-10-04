@@ -46,11 +46,11 @@ nav ul{
 }
 
 #homehero {
-    height: 300px;
-    background-image: url('corvette.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  height: 300px;
+  background-image: url('../corvette.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 main{
@@ -112,15 +112,14 @@ input, textarea{
     background-position: center;
     background-repeat: no-repeat;
 }
-#budgethero {
-    background-image: url('../budget.webp');
-}
+#budgethero { background-image: url('../budget.webp'); }
+
 #maxhero {
-    height: 300px;
-    background-image: url('../dragcar.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  height: 300px;
+  background-image: url('../dragcar.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 main img {
