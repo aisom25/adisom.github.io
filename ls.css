@@ -47,7 +47,7 @@ nav ul{
 
 #homehero {
   height: 300px;
-  background-image: url('../corvette.jpg'); 
+  background-image: url('corvette.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,11 +112,11 @@ input, textarea{
     background-position: center;
     background-repeat: no-repeat;
 }
-#budgethero { background-image: url('../budget.webp'); }
+#budgethero { background-image: url('budget.webp'); }
 
 #maxhero {
   height: 300px;
-  background-image: url('../dragcar.jpg'); 
+  background-image: url('dragcar.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -185,4 +185,5 @@ tbody tr:nth-child(even) td { background-color: #f2f2f2; }
 
     nav { text-align: center;}
     nav ul { justify-content: center; flex-direction: row; display: flex; gap:2em; padding: 0.5em 0;}
+
 }
