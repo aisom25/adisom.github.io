@@ -47,7 +47,7 @@ nav ul{
 
 #homehero {
   height: 300px;
-  background-image: url('corvette.jpg'); 
+  background-image: url('../corvette.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,11 +67,18 @@ main h3 {
 }
 
 main img {
-    float: right;
-    margin: 0 0 1em 1em;
-    max-width: 40%;
+  height: auto;
+  border: 1px solid #9c2f1d;
+  box-shadow: 3px 3px 3px #9c2f1d;
+  margin: 1em 0;
 }
 
+.half  { width: 50%; height: auto; }
+.small { width: 300px; height: auto; }
+.right { float: right; margin: 0 0 1em 1em; }
+.left  { float: left;  margin: 0 1em 1em 0; }
+.full  { width: 100%; height: auto; }
+.center { text-align: center; }
 
 h2{
     color: #db5710;
@@ -107,16 +114,16 @@ input, textarea{
 
 
 .hero {
-    height: 300px;        
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  min-height: 280px;    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#budgethero { background-image: url('budget.webp'); }
-
+#budgethero { background-image: url('../budget.webp'); }
+#differenceshero { background-image: url('../lslineup.jpg'); }
 #maxhero {
   height: 300px;
-  background-image: url('dragcar.jpg'); 
+  background-image: url('../dragcar.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -185,7 +192,24 @@ tbody tr:nth-child(even) td { background-color: #f2f2f2; }
 
     nav { text-align: center;}
     nav ul { justify-content: center; flex-direction: row; display: flex; gap:2em; padding: 0.5em 0;}
-
 }
 
+.video-wrap {
+  text-align: center;
+  margin: 1em 0;
+}
+
+.video-wrap video {
+  width: 320px;     
+  max-width: 100%;  
+  border: 1px solid #9c2f1d;
+  box-shadow: 3px 3px 3px #9c2f1d;
+}
+
+.caption {
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+#differenceshero { background-image: url('../lslineup.jpg'); }
 
