@@ -120,7 +120,7 @@ input, textarea{
   background-size: cover;
 }
 #budgethero { background-image: url('../budget.webp'); }
-#differenceshero { background-image: url('../lslineup.jpg'); }
+#differenceshero { background-image: url('../lslineup.jpeg'); }
 #maxhero {
   height: 300px;
   background-image: url('../dragcar.jpg'); 
@@ -211,5 +211,5 @@ tbody tr:nth-child(even) td { background-color: #f2f2f2; }
   margin-top: 0.5em;
 }
 
-#differenceshero { background-image: url('../lslineup.jpg'); }
+
 
